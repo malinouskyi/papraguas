@@ -9,7 +9,7 @@ defmodule Database.Application do
     children = [
       # Starts a worker by calling: Database.Worker.start_link(arg)
       # {Database.Worker, arg}
-      Addresses.Repo
+      Database.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
